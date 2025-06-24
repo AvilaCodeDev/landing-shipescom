@@ -1,0 +1,3 @@
+git add . //se cargan todos los documentos modificados/creados/eliminados
+git commit -m "Creacion de la landing page"
+git push //subir los cambios a github

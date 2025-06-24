@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ESCOM IPN - Oferta Educativa</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+  <div class="logo-container">
+    <img src="logo-ipn.png" alt="Logo IPN" class="logo" />
+  </div>
+  <h1>Escuela Superior de Cómputo</h1>
+</header>
+
+  <nav>
+    <ul>
+      <li><a href="#" class="button" data-section="inicio"><span>Inicio</span></a></li>
+      <li class="dropdown">
+        <a href="#" class="button" data-section="oferta"><span>Oferta Educativa</span></a>
+        <ul class="dropdown-content">
+          <li><a href="#">Ing. Sistemas Computacionales</a></li>
+          <li><a href="#">Ing. En Inteligencia Artificial</a></li>
+          <li><a href="#">Lic. En Ciencia de Datos</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="button" data-section="posgrados"><span>Posgrados</span></a>
+        <ul class="dropdown-content">
+          <li><a href="#">M. en C. En Sistemas Computacionales Moviles</a></li>
+          <li><a href="#">M. en C. Y Doctorado En Inteligencia Artificial Y Ciencia de Datos</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="button" data-section="escomunidad"><span>ESCOMUNIDAD</span></a></li>
+    </ul>
+  </nav>
+
+  <section class="banner">
+    <h2>Bienvenido a la ESCOM</h2>
+  </section>
+
+  <main>
+    <aside class="sidebar">
+      <h3>Enlaces Rápidos</h3>
+      <ul>
+        <li><a href="https://www.ipn.mx/dae/" target="_blank">Plataforma Educativa Oficial</a></li>
+        <li><a href="https://www.ipn.mx/assets/files/website/docs/inicio/calendarioipn-escolarizada.pdf" target="_blank">Calendario Escolar</a></li>
+        <li><a href="https://www.escom.ipn.mx/" target="_blank">Plataforma Educativa ESCOM</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ESCOM - Instituto Politécnico Nacional</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const programContent = {
+        'sistemas': `
+          <div class="programa-completo">
+            <div class="objetivo-section">
+              <h3>Objetivo</h3>
+              <p>Formar ingenieros en sistemas computacionales de sólida preparación científica y tecnológica en los ámbitos del desarrollo de software y hardware, que propongan, analicen, diseñen, desarrollen, implementen y gestionen sistemas computacionales a partir de tecnologías de vanguardia y metodologías, normas y estándares nacionales e internacionales de calidad; líderes de equipos de trabajo multidisciplinarios y multiculturales, con un alto sentido ético y de responsabilidad.</p>
+            </div>
+            <div class="perfiles-container">
+              <div class="perfil-ingreso">
+                <h3>Perfil de Ingreso</h3>
+                <p>Los aspirantes a estudiar este programa deberán tener conocimientos en matemáticas, física e informática. Es también conveniente que posea conocimientos de inglés. Así mismo, deberán contar con habilidades como análisis y síntesis de información, razonamiento lógico y expresión oral y escrita. Así como actitudes de respeto y responsabilidad.</p>
+              </div>
+              <div class="perfil-egreso">
+                <h3>Perfil de Egreso</h3>
+                <p>El egresado del programa académico de Ingeniería en Sistemas Computacionales podrá desempeñarse en equipos multidisciplinarios e interdisciplinarios en los ámbitos del desarrollo de software y hardware, sustentando su actuación profesional en valores éticos y de responsabilidad social, con un enfoque de liderazgo y sostenibilidad en los sectores público y privado.</p>
+              </div>
+            </div>
+            <div class="atributos-campo-container">
+              <div class="atributos-egresado">
+                <h3>Atributos del Egresado</h3>
+                <p>Los atributos de egreso son un conjunto de resultados evaluables individualmente, que conforman los componentes indicativos del potencial de un egresado para adquirir las competencias o capacidades para ejercer la práctica de la ingeniería a un nivel apropiado.</p>
+                <p>1. Modelar problemas en sistemas computacionales a partir de conocimientos de ciencias básicas e ingeniería.<p>
+                <p>2. Resolver problemas en sistemas computacionales, con base en la metodología de desarrollo, análisis de resultados y toma de decisiones.<p>
+                <p>3. Desarrollar sistemas computacionales de acuerdo a procesos de diseño, estándares de calidad y optimización de procesos.<p>
+                <p>4. Integrar habilidades de liderazgo, comunicación efectiva y trabajo colaborativo para la planificación de tareas, cumplimiento de metas y análisis de riesgos.<p>
+                <p>5. Asumir una actitud ética y crítica en su desempeño académico que considere su impacto económico, social y ambiental y que reconozca sus necesidades de actualización permanente.<p>
+              </div>
+              <div class="titulacionl">
+                <h3>Titulación</h3>
+                <p>En la Escuela Superior de Cómputo, de conformidad con el Reglamento de Titulación Profesional vigente se considerarán 9 opciones para titulación profesional en la carrera de Ing. en Sistemas Computacionales (ISC), Ing. en Inteligencia Artificial (IIA), Lic. en Ciencia de Datos (LCD) e Ing. en Sistemas Automotrices (ISISA), debiendo cumplir cada una de ellas con requisitos y actividades propios:</p>
+              </div>
+              <div class="campo-laboral">
+                <h3>Campo Laboral</h3>
+                <p>El campo profesional en el que se desarrollan los egresados de este Programa Académico es muy amplio, se localiza en los sectores público y privado; en consultorías, en empresas del sector financiero, comercial, de servicios o bien en aquellas dedicadas a la innovación, en entidades federales, estatales, así como pequeño empresario creando empresas emergentes (startups).</p>
+              </div>
+            </div>
+          </div>
+        `,
+        'ia': `
+          <div class="programa-completo">
+            <div class="objetivo-section">
+              <h2>Objetivo</h2>
+              <p>Formar ingenieros en sistemas computacionales con sólida preparación científica y tecnológica, capaces de diseñar, desarrollar e implementar soluciones informáticas innovadoras que contribuyan al desarrollo de la sociedad y la industria.</p>
+            </div>
+            <div class="objetivo-section">
+              <h2>Objetivo</h2>
+              <p>Formar ingenieros en sistemas computacionales con sólida preparación científica y tecnológica, capaces de diseñar, desarrollar e implementar soluciones informáticas innovadoras que contribuyan al desarrollo de la sociedad y la industria.</p>
+            </div>
+          </div>
+        `,
+        'ciencia-datos': `
+          <h2>Licenciatura en Ciencia de Datos</h2>
+          <p>Prepara especialistas en análisis, visualización y gestión de grandes volúmenes de datos, con sólidos conocimientos en estadística, programación y ética del manejo de la información.</p>
+        `,
+        'maestria-moviles': `
+          <h2>Maestría en Ciencias en Sistemas Computacionales Móviles</h2>
+          <p>Forma investigadores y desarrolladores de tecnologías móviles, centrados en la innovación, la eficiencia energética y la conectividad inteligente de dispositivos.</p>
+        `,
+        'doctorado-ia': `
+          <h2>Maestría y Doctorado en IA y Ciencia de Datos</h2>
+          <p>Programas de posgrado orientados a la investigación avanzada en inteligencia artificial, ciencia de datos, machine learning, visión por computadora, procesamiento de lenguaje natural y ética algorítmica.</p>
+        `,
+        'escomunidad': `
+          <h2>ESCOMUNIDAD</h2>
+          <p>ESCOMUNIDAD es una iniciativa para fortalecer el sentido de pertenencia, el apoyo entre estudiantes y el desarrollo humano integral a través de actividades culturales, deportivas y académicas.</p>
+        `
+      };
+
+      const main = document.querySelector('main');
+      const contentContainer = document.createElement('div');
+      contentContainer.className = 'content-section';
+      contentContainer.id = 'dynamic-content';
+
+      const sidebar = document.querySelector('.sidebar');
+      main.insertBefore(contentContainer, sidebar);
+
+      function showContent(title, content) {
+        contentContainer.innerHTML = `<h2>${title}</h2>${content}`;
+        contentContainer.classList.add('active');
+      }
+
+      function hideContent() {
+        contentContainer.classList.remove('active');
+        contentContainer.innerHTML = '';
+      }
+
+      const dropdownLinks = document.querySelectorAll('.dropdown-content a');
+
+      dropdownLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          const linkText = this.textContent.trim();
+          if (linkText === 'Ing. Sistemas Computacionales') {
+            showContent('Ingeniería en Sistemas Computacionales', programContent.sistemas);
+          } else if (linkText === 'Ing. En Inteligencia Artificial') {
+            showContent('Ingeniería en Inteligencia Artificial', programContent.ia);
+          } else if (linkText === 'Lic. En Ciencia de Datos') {
+            showContent('Licenciatura en Ciencia de Datos', programContent['ciencia-datos']);
+          } else if (linkText === 'M. en C. En Sistemas Computacionales Moviles') {
+            showContent('Maestría en Ciencias en Sistemas Computacionales Móviles', programContent['maestria-moviles']);
+          } else if (linkText === 'M. en C. Y Doctorado En Inteligencia Artificial Y Ciencia de Datos') {
+            showContent('Maestría en Ciencias y Doctorado en IA y Ciencia de Datos', programContent['doctorado-ia']);
+          }
+        });
+      });
+
+      const navButtons = document.querySelectorAll('.button[data-section]');
+
+      navButtons.forEach(button => {
+        button.addEventListener('click', function (e) {
+          e.preventDefault();
+          const section = this.getAttribute('data-section');
+          if (section === 'escomunidad') {
+            showContent('ESCOMUNIDAD', programContent.escomunidad);
+          } else if (section !== 'oferta' && section !== 'posgrados') {
+            hideContent();
+          }
+        });
+      });
+
+      const dropdownToggle = document.querySelector('.dropdown > .button');
+      const dropdownContent = document.querySelector('.dropdown-content');
+
+      if (dropdownToggle && dropdownContent) {
+        dropdownToggle.addEventListener('click', function (e) {
+          if (window.innerWidth <= 768) {
+            e.preventDefault();
+            dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+          }
+        });
+      }
+
+      window.addEventListener('resize', function () {
+        if (window.innerWidth > 768 && dropdownContent) {
+          dropdownContent.style.display = '';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
